@@ -589,6 +589,9 @@ button:hover {
   }
 }
 
+
+
+
 @media (max-width: 768px) {
   .container2 {
     flex-direction: column;
@@ -610,8 +613,9 @@ button:hover {
 
   .bu {
     font-size: 0.8em;
-    padding: 5px 5px 5px 5px;
-    margin: -60px 20px 20px 2px;
+    padding: 3%;
+    margin: 0;
+    margin-top: -20px;
 
   }
 
@@ -633,6 +637,10 @@ button:hover {
   }
 }
 }
+
+
+
+
 
 
 
@@ -662,7 +670,6 @@ button:hover {
 
 
 
-
 @media (min-width: 768px) {
 
 #hr1{
@@ -671,3 +678,11 @@ button:hover {
 
 }
 
+
+@media (max-width: 1065px) {
+  .big-card {
+    display: none;
+
+}
+
+}
