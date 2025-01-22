@@ -391,7 +391,7 @@ button:hover {
 
 
 
-/* Footer Styling */
+
 .footer {
   background-color: rgba(93, 88, 240, 1);
   color: #fff;
@@ -438,7 +438,7 @@ button:hover {
   margin-bottom: 15px;
 }
 
-/* Navigation Links */
+
 .footer-nav {
   list-style: none;
   padding: 0;
@@ -456,7 +456,7 @@ button:hover {
 }
 
 .footer-nav a:hover {
-  color: #f1c40f; /* Highlight color */
+  color: #f1c40f; 
 }
 
 
@@ -575,12 +575,12 @@ button:hover {
 
 
   .cards {
-      flex-direction: column; /* Stack cards in a column */
+      flex-direction: column; 
       align-items: center;
   }
 
   .card {
-      width: 90%; /* Cards take up most of the screen width */
+      width: 90%; 
   }
 
   .arrow-buttons button {
@@ -589,10 +589,68 @@ button:hover {
   }
 }
 
+@media (max-width: 768px) {
+  .container2 {
+    flex-direction: column;
+    
+  }
+
+  .big-card {
+    display: none;
+  }
+
+  .cards2 {
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 15px;
+  }
+
+  .s2card {
+    padding: 15px;
+  }
+
+  .bu {
+    font-size: 0.8em;
+    padding: 5px 5px 5px 5px;
+    margin: -60px 20px 20px 2px;
+
+  }
+
+  .view {
+    width: 100%; 
+  }
+}
 
 
 
 
+
+@media (max-width: 480px) {
+  .cards2 {
+    grid-template-columns: 1fr;
+
+  .s2card {
+    text-align: center;
+  }
+}
+}
+
+
+
+@media (max-width: 768px) {
+  .footer .container3 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-column {
+    margin-bottom: 20px;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+}
 
 
 
@@ -612,3 +670,4 @@ button:hover {
 }
 
 }
+
