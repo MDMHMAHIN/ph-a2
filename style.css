@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+}
+
+.navbar .logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.navbar .nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.navbar .nav-links li {
+  margin: 0 15px;
+}
+
+.navbar .nav-links a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+#home{
+  color:rgba(254, 163, 1, 1) ;
+
+}
+
+#about{
+  color: rgba(1, 172, 253, 1);
+
+}
+#facilities{
+  color: rgba(73, 85, 96, 1);
+
+
+}
+#admission{
+  color: rgba(93, 88, 239, 1);
+
+}
+
+.navbar .nav-links a:hover {
+  color: orange;
+}
+
+.navbar .contact-btn {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.navbar .contact-btn:hover {
+  background-color: #ff7845;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.navbar, .banner{
+
+  max-width: 1440px;
+  margin: 0 150px;
+}
+
+
+
+
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+}
+
+.content {
+  max-width: 60%;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.color1 {
+  color: orange; /* Example color */
+}
+
+.color2 {
+  color: skyblue; /* Example color */
+}
+
+p {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+button {
+  padding: 15px 25px;
+  background-color:black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1.1em;
+}
+
+button:hover {
+  background-color: #1f618d;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
+
+.standard-curriculum {
+  background-image: url('assets/bg.png'); 
+  background-size: cover;
+  background-position: center;
+  padding: 50px 20px;
+  text-align: center;
+  color: #fff;
+  max-width: 1440px;
+  margin: 0 150px;
+}
+
+.standard-curriculum h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+/* Cards Styling */
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  color: #2C2D2D;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.card h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.card a {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* Gradient Backgrounds */
+.card1 {
+  background: linear-gradient(135deg, #DEF5FF, #ffff);
+}
+
+.card2 {
+  background: linear-gradient(135deg, #FFF4DC, #ffff);
+}
+
+.card3 {
+  background: linear-gradient(135deg, #F2E8FF, #ffff);
+}
+
+/* Arrow Button Group */
+.arrow-buttons {
+  margin-top: 30px;
+}
+
+.arrow-buttons button {
+  background-color: #fff;
+  color: #333;
+  border: none;
+  border-radius: 50%;
+  padding: 10px 15px;
+  margin: 0 10px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.arrow-buttons button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.card-head{
+  color: black;
+}
+
+#Read-More-1{
+  color: blue;
+  
+
+}
