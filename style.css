@@ -114,11 +114,11 @@ h1 {
 }
 
 .color1 {
-  color: orange; /* Example color */
+  color: orange; 
 }
 
 .color2 {
-  color: skyblue; /* Example color */
+  color: skyblue; 
 }
 
 p {
@@ -264,26 +264,33 @@ button:hover {
 
 
 
-
-
 .our-stories {
-  background-image: url('assets/bg.png'); 
+  
+  background-image: url('assets/bg.png');
   background-size: cover;
   background-size: cover;
   background-position: center;
   color: black;
   padding: 50px 20px;
   text-align: center;
-  margin: 0 150px;
-  background-color:linear-gradient(135deg, #FEA301, #ffff);
 }
+
+
+
+
+
+
+
 
 .container2{
+  
 
   display: flex;
- 
-
+  margin: 0 150px;
 }
+  
+
+
 
 
 
@@ -468,3 +475,140 @@ button:hover {
   transform: scale(1.1);
 }
 
+
+
+
+
+
+@media (max-width: 768px) {
+  .nav-links,
+  .contact-btn, .hide {
+    display: none;
+  }
+
+  
+
+  
+#hi1, #hi2, #hi3{
+  display: none;
+}
+
+.menu-icon {
+  display: block;
+  padding-right: 15px;
+  position: absolute;
+  right: 0; 
+
+  
+
+
+
+}
+.logo{
+  padding-left: 15px;
+  position: absolute;
+  left: 0; 
+   
+
+
+}
+
+.navbar{
+  margin-top: 15px;
+
+}
+
+@media (max-width: 768px) {
+  .banner {
+    margin: 0;
+      flex-direction: column; 
+      text-align: center;
+  }
+
+  .image {
+      order: -1; 
+      margin-bottom: 20px;
+  }
+
+  .content {
+      max-width: 100%; 
+  }
+
+  .content h1 {
+      font-size: 1.8em; 
+  }
+
+  .content p {
+    margin-top: 10px;
+      font-size: 1em; 
+  }
+
+  button {
+    margin-top: 10px;
+      width: 100%; 
+      padding: 15px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+@media (max-width: 768px) {
+
+  .standard-curriculum{
+    margin: 0;
+  }
+
+
+
+
+
+  .cards {
+      flex-direction: column; /* Stack cards in a column */
+      align-items: center;
+  }
+
+  .card {
+      width: 90%; /* Cards take up most of the screen width */
+  }
+
+  .arrow-buttons button {
+    display: none;
+      
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+
+#hr1{
+  display: none;
+}
+
+}
